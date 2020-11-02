@@ -1,0 +1,4 @@
+organizationName,publicId,name,applicationTags
+Org1,test1,Test Application 1,
+Org1,test2,Test Application 2,Distributed
+Org2,test3,Test Application 3,"Other,Distributed"
