@@ -198,10 +198,10 @@ def add_category(name):
 def get_load_file(file_name):
     # loading csv file and checking for required headers. 
     container, missing, required = [],[],['organizationName', 'publicId', 'name', 'applicationTags']
-    prin('-'*60)
+    print('-'*60)
     print("checking import file for required columns")
     print(required)
-    prin('-'*60)
+    print('-'*60)
     
     with open(file_name, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
