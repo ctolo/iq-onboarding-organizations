@@ -69,7 +69,7 @@ def pp(c):
 def handle_resp(resp, root=""):
     #normalize api call responses
     if resp.status_code != 200:
-        print( resp )
+        print( resp.text )
         return None
     node =  resp.json()
     if root in node:
